@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>viabilidad y factibilidad</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+  }
+  .header {
+    background-color: #0966ff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .main-content {
+    padding: 21px;
+    font-size: 25px;
+
+  }
+  .footer {
+    background-color: #0966ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .idcheck {
+background-color: #fca311;
+    border-radius: 5px;
+  }
+
+
+  input:hover {
+     font-size: 16px;
+  }
+  label {
+    font-size: 25px;
+  }
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="font-size: 50px;">Viabilidad y factibilidad</h1>
+</div>
+
+
+<div class="main-content">
+
+  <p>La <i>viabilidad</i> y la <i>factibilidad</i> son dos conceptos clave en la evaluación de un negocio o emprendimiento. Aunque a menudo se usan indistintamente, tienen significados distintos que son cruciales para el análisis de proyectos.</p>
+  <h2>Viabilidad</h2>
+  <p>Viabilidad se refiere a la capacidad de un proyecto para ser realizado. Es decir, si es posible llevar a cabo el proyecto dadas las circunstancias actuales, como la tecnología disponible, el conocimiento y las condiciones del mercado</p>
+  <p>
+    Para determinar la viabilidad de un negocio, se consideran aspectos como:
+<ul>
+  <li>La demanda del mercado.</li>
+  <p></p>
+<li>La competencia existente.</li>
+<p></p>
+<li>La capacidad de producción o prestación de servicios.</li>
+<p></p>
+<li>Los conocimientos y habilidades disponibles.</li>
+<p></p>
+
+</ul>
+<p></p>
+
+  </p>
+  <!-- Aquí puedes agregar más contenido como imágenes, descripciones de platos, precios, etc. -->
+  <h2>Factibilidad</h2>
+  <p>Factibilidad, por otro lado, va más allá de la simple posibilidad de realizar el proyecto y se adentra en su potencial de éxito financiero. Un proyecto factible no solo es viable desde el punto de vista operativo, sino que también es financieramente sostenible y rentable.</p>
+
+<p>En cuanto a la factibilidad, se analizan elementos como:</p>
+
+<ul>
+<li>La rentabilidad económica.
+<p></p>
+<li>Los costos de inversión y operación.
+  <p></p>
+<li>Los flujos de caja proyectados.
+  <p></p>
+<li>La recuperación de la inversión y la generación de beneficios.
+  <p></p>
+</ul>
+</div>
+
+
+<script>
+function verificarRespuesta() {
+    var respuestaCorrecta = "c";
+    var respuestaUsuario = document.querySelector('input[name="opcion"]:checked').value;
+    if (respuestaUsuario == respuestaCorrecta) {
+        alert("¡Correcto!");
+    } else {
+        alert("Incorrecto. Sigue intentandolo");
+    }
+}
+</script>
+</head>
+
+
+<h1>¿La vibilidad y factibilidad son necesarias para nuestros emprendimientos?</h1>
+<form>
+    <input type="radio" id="madrid" name="opcion" value="a">
+    <label for="madrid">a) No, no son necesarias.</label><br><br>
+    <input type="radio" id="berlin" name="opcion" value="b">
+    <label for="berlin">b) No son muy útiles a la hora de implementar un negocio, ya que interfieren con la puesta en marcha.</label><br><br>
+    <input type="radio" id="paris" name="opcion" value="c">
+    <label for="paris">c) Son necesarias para la evaluci&oacute;n de riegos y la toma correcta de desiciones.</label><br><br>
+
+    <p></p>
+    
+ㅤㅤㅤ<input class="idcheck" type="button" value="Enviar" onclick="verificarRespuesta()"><br><br>
+</form>
+
+
+<script>
+function verificarRespuesta() {
+    var respuestaCorrecta = "a";
+    var respuestaUsuario = document.querySelector('input[name="opcion"]:checked').value;
+    if (respuestaUsuario == respuestaCorrecta) {
+        alert("¡Correcto!");
+    } else {
+        alert("Incorrecto. Sigue intentandolo");
+    }
+}
+</script>
+</head>
+<body>
+
+<h2>¿Por qué es importante realizar un estudio de factibilidad?</h2>
+<form>
+    <input type="radio" id="madrid" name="opcion" value="a">
+    <label for="madrid">a) Ayuda a determinar si un proyecto es viable</label><br><br>
+    <input type="radio" id="berlin" name="opcion" value="b">
+    <label for="berlin">b) Ayuda a mejorar la calidad del aire</label><br><br>
+    <input type="radio" id="paris" name="opcion" value="c">
+    <label for="paris">c) No ayuda en la planeación de un proyecto</label><br><br>
+    ㅤㅤㅤ<input class="idcheck" type="button" value="Enviar" onclick="verificarRespuesta()">
+    <br><br>
+</form>
+
+<div class="footer">
+  <p>Colegio Lehnsen Online | Emprendimiento | 2024 &copy; | José Aguilar</p>
+  <img src="https://lehnsen.edu.gt/wp-content/uploads/2023/03/cropped-Logo-CL-e1677779589284.png" width="70px" height="70px">
+</div>
+
+
+</body>
+</html>
